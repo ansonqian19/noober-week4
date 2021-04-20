@@ -17,6 +17,7 @@ window.addEventListener('DOMContentLoaded', async function() {
     // decide service level
     let levelOfService
     let border
+    let textsize
     if (ride.purpleRequested == true) {
           levelOfService = `Noober Purple`
           border = `border-purple-900`
